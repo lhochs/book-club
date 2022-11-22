@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+#container {
+	width: auto;
+	height: auto;
+	margin: 25% 20% ;
+	padding: 35px;
+	font-family: sans-serif;
+	background-color: lightblue;
+
+}
+
+#top{
+	/* border: 2pt dotted red; */
+	border: 2pt solid white;
+	margin: 15px;
+	padding: 10px;
+	color: white;
+}
+
+.nav-bar{
+	/* border: 2pt dotted red; */
+	border: 2pt solid white;
+	margin: 15px;
+	padding: 10px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box{
+	/* border: 2pt dotted red; */
+	margin: 15px 5px;
+	text-align: right;
+}
+
+h3{
+	color: white;
+	text-align: center;
+}
+#forms{
+	display:flex;
+	justify-content: space-between;
+	/* border: 2pt dotted red;  */
+}
+
+.register{
+	border: 2pt solid white;	
+	margin: 15px;
+	padding: 10px;
+}
+
+#shelf {
+	margin:40px 15px;
+	padding: 15px;
+	background-color: white;
+	width:90%;
+}
+
+td{
+	border: 2pt dotted red;
+	width: 25%;
+	padding:10px;
+	text-align: center;
+}
+
+th{
+	border: 2pt solid black;
+}
+
+.login{
+	border: 2pt solid white;
+	margin: 15px;
+	padding: 10px;
+}
+.centerbtn{
+	/* border: 2pt dotted red; */
+	display:flex;
+	justify-content: center;
+}
+.error{
+	color: red;
+}
+.btn{
+	height: 40px;
+	background-color: lightblue;
+	transition-duration: 0.2s;
+	width: 120px;
+	border: 2pt solid white;
+	color: black;
+	padding: auto;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 15px;
+}
+
+.btn:hover{
+	background-color: white;
+	color: black;
+}
